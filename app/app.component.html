@@ -1,0 +1,401 @@
+<section class="banner video-section" role="banner">  
+  <div class="pattern-overlay">
+    <div style="background:#000; opacity:0.5;" >
+      <a id="bgndVideo" class="player"  data-property="{videoURL:'https://youtu.be/BuV5VSmY6U0',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
+    </div>
+  
+    <header id="header">
+      <div class="header-content clearfix"> 
+        <a class="logo" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/"><img src="./assets/images/logo.png" alt=""></a>
+        <a class="stickylogo" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/"><img src="./assets/images/sticky-logo.png" alt=""></a>
+        <nav class="navigation navbar navbar-default" role="navigation">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse" aria-expanded="true" style="">
+            <ul class="primary-nav nav navbar-nav">
+              <li class="nav-item"><a class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/">Home</a></li>
+
+              <li class="nav-item dropdown  show-on-hover dropdown-large"><a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">Softwares <i class="fa fa-angle-down"></i></a>
+                <ul class="dropdown-menu dropdown-menu-large row">
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header">Application Services</li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-application-development">Application Development</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-product-development">Product Development</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/Embeded-team-Optimization">Embedded Team Optimization</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-code-rescue">Code Rescue</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-migration-reengineering">Migration Reengineering</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-maintnance-enhancement">Maintenance/Enhancement</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-software-qa-testing">Software QA Testing</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header">Enterprise Solutions</li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-enterprice-hrm">Enterprise HRM</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-enterprise-innovation-idea">Enterprise-Innovation & Idea</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-enterprise-crm">Enterprise CRM</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-enterprise-mobility">Enterprise Mobility Services</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-enterprise-ecm">Enterprise ECM</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-enterprise-resource-planning">Enterprise Resources Planning</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-saas-developments">SaaS Development</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header">Consulting Services</li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-optimizing-it-organizations">Optimizing IT organizations</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-agile-marketing">Agile Marketing</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-devops-consultants">DevOps Consultants</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-sap-development-consultant">SAP Development Consultant</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-business-intelligence"> Business intelligence</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-big-data-and-analytics"> Big Data & Analytics</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header">Engagement</li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-agile-dedicated-teams">Agile Dedicated Teams</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-build-operate-transfer">Build Operate Transfer</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-odc-fixed">ODC +  Fixed</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-offshore-software-testing">Offshore Software Testing</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/software-offshore-development-center">Offshore Development Center</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown  show-on-hover dropdown-large"><a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">web apps <i class="fa fa-angle-down"></i></a>
+                <ul class="dropdown-menu dropdown-menu-large row">
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header">Web App Developer</li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-angular-js">Angular js</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-javacore-developer">Java Developer</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-node-js-developer">Node.js Developer</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-payment-gateway">Payment Gateway</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-aws-amazon-s3">AWS Amazon s3 </a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-kendo-ui">Kendo UI</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-rest-api-integration">Rest Api's </a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header">PHP Framework Developer</li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-symfony-developer">Symfony Developer</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-laravel-developer">Laravel Developer</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-codeigniter-developer">CodeIgniter Developer</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-yii-developer">YII Developer</a></li>
+                      <li><a  routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-ruby-on-rails-developer">Ruby On Rails</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-hotel-booking">Hotel Booking</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-cab-booking">Cab Booking</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header">CMS & CRM Developer</li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-wordpress-development">Wordpress </a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-woocommerce-development">Woocommerce</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-buddypress-development">Buddypress</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-magneto-development">Magento </a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-drupal-development">Drupal</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-joomla-development">Joomla </a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-sugar-crm-development">SugarCRM </a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header">Dynamic Web Applications</li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-content-management-system"> Content Management System </a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-ecommerce-applications"> Ecommerce Applications</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-membership-site-developer"> Membership Site Developer</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-customer-facing-web-portals">Customer-Facing Web Portals </a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-progressive-web-application">Progressive Web Application</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/webapps-crowd-funding-web-developer">Crowd Funding Web Developer </a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/Blockchain-Ethereum-Cryptocurrency-ico-development-company">Blockchain Ethereum</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/Ico-Ethereum-Cryptocurrency-ico-development-company"> ICO Launch Serevices </a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown  show-on-hover dropdown-large">
+                <a  class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">Mobility <i class="fa fa-angle-down"></i> </a>
+                <ul class="dropdown-menu dropdown-menu-large row">
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header"> Mobile Apps Development </li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-iphone-app-development"> iPhone App Development </a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-ipad-app-development"> iPad App Development  </a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-android-app-development"> Android App Development  </a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-ionic-hybrid-developer"> Ionic Hybrid Developer </a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-mobileappdevelopment"> Windows App Development   </a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-windows-phone-sdk-j2mee"> Windows Phone: SDK/J2MEE</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header"> Mobile Platforms</li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-ios-objective-c">  iOS : Objective C</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-i-beacons-apps-development-servcies">  i-Beacons Apps Development</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-android-eclipse">  Android: Eclipse</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-ionic-apps-development-services">  Ionic Apps Development Services  </a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-phonegap-html5-mobile">  PhoneGAP HTML5 Mobile</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header"> Enterprise Mobility <br> Consulting</li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-mobile-business-intellegence-bi">  Mobile Business Intellegence (Bi) </a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-business-process-mobilization-bpm">  Business Process Mobilization (BPM)</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-b2b-mobile-apps-development">  B2B Mobile Apps Development</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-enterprise-ios-app-development">  Enterprise iOS App Development </a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-enterprise-android-app">  Enterprise Android Apps</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-server-management"> Server Management & DataCentre Services</a></li>
+
+
+
+
+                    </ul>
+                  </li>
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header">  Software Testing Tools </li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-agile-testing"> Agile Testing</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-automation-testing"> Automation Testing</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-basics-of-software-testing"> Basics of Software Testing</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-bug-defect-tracking"> Bug Defect tracking </a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-security-testing"> Security Testing</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-cookie-testing"> Cookie Testing</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-crowdsourced-testing"> Crowdsourced Testing</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/mobility-database-testing"> Database Testing  </a></li>
+                    </ul>
+                  </li>
+                </ul> 
+              </li>
+
+              <li class="nav-item dropdown  show-on-hover dropdown-large"><a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">Industries <i class="fa fa-angle-down"></i></a>
+                <ul class="dropdown-menu dropdown-menu-large row">
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header">Market trend</li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-automotive-services">Automotive</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-Banking-services">Banking</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-communication-service-providers">Communication Service Providers</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-consumer-goods">Consumer Goods</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-energy">Energy</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header">Medical Devices </li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-media-entertainment-publishing-services">Media, Entertainment & Publishing</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-natural-resources-services">Natural Resources</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-network-equipment-provider">Network Equipment Provider</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-pharmaceutical-life-sciences-services">Pharmaceutical & Life Sciences</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header">Manufacturing</li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-government">Government</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-healthcare">Healthcare</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-hi-tech">Hi-Tech</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-insurance">Insurance</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-engineering-and-construction"> Engineering & Construction</a></li>
+                    </ul>
+                  </li>
+                  <li class="col-sm-3">
+                    <ul>
+                      <li class="dropdown-header">Professional  Services</li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-retail">Retail</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-securities-and-capital-markets">Securities & Capital Markets</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-transportation">Transportation</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/industries-utilities">Utilities</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item"><a class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/career">Careers</a>  </li>
+
+              <li class="nav-item dropdown  show-on-hover dropdown-large"><a class="nav-link dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="">About Us <i class="fa fa-angle-down"></i></a>
+                <ul class="dropdown-menu dropdown-menu-large row custommenu" >
+                  <li class="col-sm-12">
+                    <ul>
+                      <li> <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/about-us" >About Us</a></li>
+                      <li><a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/testimonials" >Testimonials</a></li>
+                      <li> <a routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" routerLink="/blog">Blog</a></li>   
+                    </ul>  
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+</section> 
+
+  
+
+
+
+<router-outlet></router-outlet>
+
+<div class="request_quote">
+  <button type="button" id="rerequest_quote" class="request_a_quote ubtn ult-responsive ubtn-no-hover-bg none ubtn-left tooltip-570df6582b27b" data-toggle="modal" data-target="#myModal">Request a Quote</button>
+</div>
+
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+    <form (submit)="myInsert(useremailid, userskypeid, usersmessage)" method="post" name="myForm" >
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"  onclick="document.cookie = 'requestqclose=yes';">&times;</button>
+          <h4 class="modal-title">Request a Quote</h4>
+        </div>
+        <div class="modal-body">
+          <div id="signupalert" style="display:none" class="alert alert-success"><p>Error:</p> <span></span></div>                          
+          <div class="form-group">
+            <input class="form-control" value="" id="useremailid" name="useremailid" [(ngModel)]="useremailid" required="required"  type="text" placeholder="Email Address">
+          </div>
+          <div class="form-group">
+            <input class="form-control" value="" id="userskypeid" name="userskypeid" [(ngModel)]="userskypeid" required="required" type="text" placeholder="Skype id">
+          </div>
+          <div class="form-group">
+            <textarea id="usersmessage" name="usersmessage" [(ngModel)]="usersmessage" class="form-control" placeholder="Message"></textarea>
+          </div>
+          <button type="submit" class="btn main-btn pull-right">Submit</button>
+        </div>
+      </div>
+	 </form>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="container">
+    <div class="col-sm-3">
+      <div class="footer-logo"><img src="./assets/images/logo.png"></div>
+      <p>Maxosys is a Custom Software, Web & Mobile Apps development company with Global presence.</p>
+
+      <!-- <ul class="footer-contact-info">
+        <li>
+          <span> <i class="fa fa-map-marker"></i> Maxosys Limited, Regd. Off. , Tower A, Level 3, Chandigarh Technology Park, Chandigarh India, Pin-160101  </span>
+          <span> <i class="fa fa-phone"></i> 91-172-5009364 </span>
+          <span> <i class="fa fa-fax"></i> 0172- 4007984 </span>
+          <span> <i class="fa fa-envelope"></i> <a href="mailto:info@maxosys.com">info@maxosys.com</a>, <a href="mailto:hrd@maxosys.com">hrd@maxosys.com</a> </span>
+        </li> 
+
+        <li>
+          <span> <i class="fa fa-map-marker"></i> Kemp House 160 City Road London EC1V 2NX,UNITED KINGDOM.  </span> 
+          <a href="" target=""><span> <i class="fa fa-phone"></i> +44-2076897888  </span></a>
+        </li>
+
+    		<li>
+    			<span> <i class="fa fa-map-marker"></i> Maxosys INC , 4122 Madison St., Ste 561, Elfers, Florida (USA) 34680 </span> 
+    			<a href="" target=""><span> <i class="fa fa-phone"></i> 001-(800) 595-3823 </span></a>
+    		</li>	
+
+    		<li>
+    			<i class="fa fa-envelope"></i> <a href="mailto:info@maxosys.com">info@maxosys.com</a>, <a href="mailto:hrd@maxosys.com">hrd@maxosys.com</a>   
+    		</li>
+      </ul> -->
+    </div>
+
+    <div class="col-sm-3">
+      <h3>Twitter</h3>
+      <a class="twitter-timeline" data-width="100%" data-height="270" data-theme="light" href="https://twitter.com/maxosys">   Tweets by maxosys</a> 
+    </div>
+
+    <div class="col-sm-3">
+      <h3>Facebook</h3>
+      <div class="fb-page" data-href="https://www.facebook.com/Maxosys/" data-tabs="timeline" data-width="255" data-height="270" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Maxosys/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Maxosys/">Maxosys</a></blockquote></div>
+    </div>
+
+    <div class="col-sm-3">
+      <div class="newsletter">
+        <h3>Subscribe Our Newsletter</h3>
+        <div class="velaContent">
+          <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+          <style type="text/css">
+          	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+          	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+          	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+          </style>
+          <div id="mc_embed_signup">
+            <form action="https://maxosys.us14.list-manage.com/subscribe/post?u=22269462a3fdc0c3f3f5bf056&amp;id=bf6e7deb65" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+            	<p class="subscribe_text">Subscribe to join our mailing list and get the latest news from the industry delivered to your inbox</p>
+            <div class="mc-field-group">
+            	<!--<label for="mce-EMAIL">Email Address </label>-->
+            	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Subscribe Newsletter">
+            </div>
+            	<div id="mce-responses" class="clear">
+            		<div class="response" id="mce-error-response" style="display:none"></div>
+            		<div class="response" id="mce-success-response" style="display:none"></div>
+            	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_22269462a3fdc0c3f3f5bf056_bf6e7deb65" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </div>
+            </form>
+          </div>
+          <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="address">
+      <div class="col-sm-4">
+        <h3>India</h3>
+        <ul class="footer-contact-info">
+          <li>
+            <span> <i class="fa fa-map-marker"></i> Maxosys Limited, Regd. Off. , Tower A, Level 3, Chandigarh Technology Park, Chandigarh India, Pin-160101  </span>
+          <!--   <span> <i class="fa fa-phone"></i> 91-172-5009364 </span> -->
+           <!--  <span> <i class="fa fa-fax"></i> 0172- 4007984 </span> -->
+            <span>  <i class="fa fa-envelope"></i> <!-- <a href="mailto:info@maxosys.com">info@maxosys.com</a>, <br> -->  <a href="mailto:hrd@maxosys.com">hrd@maxosys.com</a> </span>
+          </li> 
+        </ul>
+      </div>
+
+      <div class="col-sm-4">
+        <h3>UK</h3>
+         <ul class="footer-contact-info">
+          <li>
+            <span> <i class="fa fa-map-marker"></i>Maxosys Limited ,  Kemp House 160 City Road London EC1V 2NX,UNITED KINGDOM.  </span> 
+            <a href="" target=""><span> <i class="fa fa-phone"></i> +44-2076897888  </span></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-sm-4">
+        <h3>USA</h3>
+        <ul class="footer-contact-info">
+          <li>
+            <span> <i class="fa fa-map-marker"></i> Maxosys INC , 4122 Madison St. ,  Ste 561, Elfers, Florida (USA) 34680 </span> 
+            <a href="" target=""><span> <i class="fa fa-phone"></i> 001-(800) 595-3823 </span></a>
+          </li> 
+        </ul>
+      </div>
+
+    </div>
+
+
+
+  </div>
+</div>
+
+<div class="bottom-footer">
+  <div class="container">
+    <p class="copyright">&#169; 2008 to 2017 Maxosys Limited - All Rights Reserved</p>
+  </div>
+</div>
+
